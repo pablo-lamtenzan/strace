@@ -1,0 +1,10 @@
+# Relocatable files
+*.o
+relocs
+
+# Executable files
+a.out
+strace
+
+# Log files
+*.log
