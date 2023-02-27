@@ -27,3 +27,7 @@ typedef enum
 		PFX_ERROR "%s: %s (errno: %d).\n", \
 		name, strerror(errno), errno \
 	)
+
+#define EFMT_OPTARGNULL PFX_ERROR "option '%s': missing arguments.\n"
+#define EFMT_OPTNOTFOUND PFX_ERROR "no such option '%s'.\n"
+#define EFMT_OPTATTACH PFX_ERROR "option '%s': no such process (pid: %d).\n"
